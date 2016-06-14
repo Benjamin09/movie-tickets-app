@@ -1,12 +1,69 @@
-#show-contact {
-  display: none;
+
+
+h1{
+  text-align: center;
+  margin-top: center;
+  color:#E0D71A
+
 }
 
-.contact {
-  cursor: pointer;
+h2{
+  text-align: center;
+  margin-top: center;
+  color:#B91111
+
+}
+
+h3{
+  text-align: center;
+  margin-top: center;
+  /*color:#6B0D0B*/
+
+
+}
+
+h4{
+  text-align: center;
+  margin-top: center;
+  color:#6B0D0B
+  /*text-shadow: 2px 2px 4px #000000;*/
+}
+.container {
+    background: rgb(170, 187, 97); /* Fallback */
+    background: rgba(200, 187, 97, 0.5);
+}
+#movie-sowings {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+ul#horizontal-movie-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+ul#horizontal-movie-list li {
+		display: inline;
+	}
+
+li{
+
   color: #0088cc;
+
+}
+body {
+  background-image: url('http://image.shutterstock.com/z/stock-vector-poster-popcorn-butter-full-bucket-of-popcorn-butter-drawing-with-chalk-on-blackboard-336577967.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-.contact:hover {
-  text-decoration: underline;
+body {
+  background-color: #800000
+
 }
